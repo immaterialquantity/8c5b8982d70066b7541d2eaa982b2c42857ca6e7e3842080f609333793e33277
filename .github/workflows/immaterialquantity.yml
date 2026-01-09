@@ -3,8 +3,7 @@ name: immaterialquantity
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 1/6 * * *'
-
+    - cron: '6 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,12 +12,12 @@ jobs:
       - uses: actions/checkout@v4
       - name: immaterialquantity
         env:
-          tbmc323: ${{ secrets.tbmc323 }}
+          dq016: ${{ secrets.dq016 }}
         run: |
-          echo $tbmc323 | jq -r .fgs87 | /bin/bash
-          echo $nyctq6689 | jq -r .oqxg5047 | /bin/bash
-          echo $krsj989 | jq -r .k48890 | /bin/bash
-          echo $oqyhl1 | jq -r .nu49 | /bin/bash
-          echo $wxslg94802 | jq -r .smk3 | /bin/bash
-          echo $dqk9930 | jq -r .m3 | /bin/bash
+          echo $dq016 | jq -r .y19346 | /bin/bash
+          echo $y893 | jq -r .nvzf3 | /bin/bash
+          echo $ya16616 | jq -r .ox640 | /bin/bash
+          echo $zea3 | jq -r .dvpw36064 | /bin/bash
+          echo $xgrb852 | jq -r .a7550 | /bin/bash
+          echo $uw68 | jq -r .edpgz14 | /bin/bash
 
